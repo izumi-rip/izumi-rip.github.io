@@ -10,6 +10,29 @@ html, body, h1, p, a, div, section {
   font: inherit;
 }
 
+/* Background Image */
+
+#bg {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: opacity 2s ease-in;
+  img {
+    display: none;
+  }
+}
+
+#bg.loaded {
+  opacity: 1;
+}
+
 /* Common */
 
 body {
@@ -48,4 +71,17 @@ blockquote {
   font-family: "Kotta One", serif;
   font-size: 22px;
   line-height: 28px;
+}
+
+.button {
+  display: inline-block;
+  padding: 6px 10px;
+  color: #cafaea;
+  border: 1px solid #cafaea;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
 }
