@@ -12,8 +12,15 @@ html, body, h1, p, a, div, section {
 
 /* Background Image */
 
-#bg {
+.bg {
   opacity: 0;
+  transition: opacity 2s ease-in;
+  img {
+    display: none;
+  }
+}
+
+.bg.full {
   position: fixed;
   top: 0;
   left: 0;
@@ -23,13 +30,9 @@ html, body, h1, p, a, div, section {
   background: no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  transition: opacity 2s ease-in;
-  img {
-    display: none;
-  }
 }
 
-#bg.loaded {
+.bg.loaded {
   opacity: 1;
 }
 

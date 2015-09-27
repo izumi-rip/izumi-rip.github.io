@@ -114,7 +114,7 @@ $parallax-ios         : true !default;
 #group1 {
   z-index: 5; /* slide over group 2 */
   .parallax__layer--base {
-    background-image: url(/images/andreas_l.jpg);
+    background-image: url(/images/santa_cruz_l.jpg);
     // background: rgb(102,204,102);
   }
 }
@@ -122,7 +122,7 @@ $parallax-ios         : true !default;
 #group2 {
   z-index: 3; /* slide under groups 1 and 3 */
   .parallax__layer--back {
-    background-image: url(/images/santa_cruz_l.jpg);
+    background-image: url(/images/andreas_l.jpg);
     // background: rgb(123,210,102);
   }
 }
