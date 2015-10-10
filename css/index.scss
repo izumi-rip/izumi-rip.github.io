@@ -3,14 +3,15 @@
 
 /* For vertical / horizontal centering */
 
-html, body, .container {
-  height: 100%;
+body {
+  color: #ffffff;
+  background-color: #222;
+  font: 18px/23px "Cantarell", sans-serif;
 }
 
 .container {
   display: table;
   padding-top: 80px;
-  width: 100%;
 }
 
 section {
@@ -41,4 +42,8 @@ h2 {
 
 h2, p {
   text-shadow: 0 0 5px #444;
+}
+
+a {
+  color: #ffffff;
 }

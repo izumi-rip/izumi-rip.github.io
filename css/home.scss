@@ -1,6 +1,25 @@
 ---
 ---
 
-p {
-  text-shadow: 0 0 5px #444;
+body {
+  background-color: #faf7f1;
+}
+
+.bg.section {
+  width: 100%;
+  height: 500px;
+  background: no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section {
+  padding: 48px;
+  .content {
+    margin: 0 auto;
+    max-width: 640px;
+    p {
+      line-height: 1.8;
+    }
+  }
 }

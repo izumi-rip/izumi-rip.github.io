@@ -14,7 +14,7 @@ html, body, h1, p, a, div, section {
 
 .bg {
   opacity: 0;
-  transition: opacity 2s ease-in;
+  transition: opacity 1s ease-out;
   img {
     display: none;
   }
@@ -38,10 +38,15 @@ html, body, h1, p, a, div, section {
 
 /* Common */
 
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  font: 18px/23px "Cantarell", sans-serif;
-  color: #ffffff;
-  background-color: #222;
+  font-family: "Kotta One", sans-serif;
 }
 
 footer {
@@ -50,10 +55,6 @@ footer {
 
 h2 {
   line-height: 40px;
-}
-
-a {
-  color: #ffffff;
 }
 
 p {
