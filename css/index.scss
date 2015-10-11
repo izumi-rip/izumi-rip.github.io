@@ -9,21 +9,13 @@ body {
   font: 18px/23px "Cantarell", sans-serif;
 }
 
-.container {
-  display: table;
-  padding-top: 80px;
-}
-
-section {
-  text-align: center;
+table {
   width: 100%;
-  &.top {
-    position: fixed;
-    top: 100px;
-  }
-  &.bottom {
-    position: fixed;
-    bottom: 80px;
+  height: 100%;
+  vertical-align: middle;
+  td {
+    width: 50%;
+    text-align: center;
   }
 }
 

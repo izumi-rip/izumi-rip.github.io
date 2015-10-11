@@ -12,6 +12,10 @@ html, body, h1, p, a, div, section {
 
 /* Background Image */
 
+.bg-wrapper {
+  background-color: #222;
+}
+
 .bg {
   opacity: 0;
   transition: opacity 1s ease-out;
@@ -47,6 +51,7 @@ body,
 
 body {
   font-family: "Kotta One", sans-serif;
+  color: #444;
 }
 
 footer {
@@ -59,6 +64,10 @@ h2 {
 
 p {
   margin: 0 0 15px 0;
+}
+
+a {
+  color: #876;
 }
 
 strong {
