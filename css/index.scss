@@ -4,7 +4,7 @@
 /* For vertical / horizontal centering */
 
 body {
-  color: #ffffff;
+  color: #fafafa;
   background-color: #222;
   font: 18px/23px "Cantarell", sans-serif;
 }
@@ -22,20 +22,17 @@ table {
 /* Elements */
 
 h1 {
-  font-family: 'Kaushan Script', cursive;
+  margin-left: 20px;
+  font-family: 'Times', serif;
+  font-style: italic;
   font-size: 60px;
-  line-height: 70px;
-  text-shadow: 0 0 8px #ddd;
+  line-height: 1;
 }
 
 h2 {
-  margin: 20px auto;
+  font-family: "Didot", serif;
 }
 
-h2, p {
+h1, h2 {
   text-shadow: 0 0 5px #444;
-}
-
-a {
-  color: #ffffff;
 }

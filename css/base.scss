@@ -50,7 +50,7 @@ body,
 }
 
 body {
-  font-family: "Kotta One", sans-serif;
+  font-family: sans-serif;
   color: #444;
 }
 
@@ -64,6 +64,10 @@ h2 {
 
 p {
   margin: 0 0 15px 0;
+}
+
+.serif p {
+  font-family: "Kotta One", serif;
 }
 
 a {
