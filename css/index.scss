@@ -16,13 +16,15 @@ table {
   td {
     width: 50%;
     text-align: center;
+    &.left {
+      padding-left: 10px;
+    }
   }
 }
 
 /* Elements */
 
 h1 {
-  margin-left: 20px;
   font-family: 'Times', serif;
   font-style: italic;
   font-size: 60px;
