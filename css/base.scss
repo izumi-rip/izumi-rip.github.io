@@ -3,11 +3,9 @@
 
 /* Reset */
 
-html, body, h1, p, a, div, section {
+html, body, h1, h2, p, div, section {
   margin: 0;
   padding: 0;
-  font-size: 100%;
-  font: inherit;
 }
 
 /* Background Image */
@@ -54,16 +52,8 @@ body {
   color: #444;
 }
 
-footer {
-  height: 100px;
-}
-
-h2 {
-  line-height: 40px;
-}
-
 p {
-  margin: 0 0 15px 0;
+  margin-bottom: 15px;
 }
 
 .serif p {
@@ -72,10 +62,6 @@ p {
 
 a {
   color: #876;
-}
-
-strong {
-  font-weight: 700;
 }
 
 blockquote {
@@ -96,7 +82,8 @@ blockquote {
   color: #cafaea;
   border: 1px solid #cafaea;
   border-radius: 5px;
-  font-weight: 700;
+  font: 18px/23px "Cantarell", sans-serif;
+  font-weight: bold;
   line-height: normal;
   text-decoration: none;
   text-align: center;
