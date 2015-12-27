@@ -2,6 +2,7 @@
 ---
 
 $link-color: #876;
+$break-small: 640px;
 
 // Override
 
@@ -37,7 +38,9 @@ h2 {
 }
 
 .table-cell {
-  display: table-cell;
+  @media screen and (min-width: $break-small) {
+    display: table-cell;
+  }
   vertical-align: middle;
   padding: 40px;
   .table-cell-inner {
@@ -49,10 +52,14 @@ h2 {
 // Photo frame
 
 .photo-frame-cell {
-  display: table-cell;
+  @media screen and (min-width: $break-small) {
+    display: table-cell;
+  }
   vertical-align: middle;
   text-align: center;
-  width: 40%;
+  @media screen and (min-width: $break-small) {
+    width: 40%;
+  }
 }
 
 .photo-frame {
