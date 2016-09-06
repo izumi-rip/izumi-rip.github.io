@@ -69,6 +69,18 @@ h2 {
     height: 100%;
     box-shadow: 0 0 20px #444;
   }
+  &.three {
+    img {
+      @media screen and (min-width: $break-small) {
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+.credit {
+  text-align: center;
+  margin-bottom: 160px;
 }
 
 // Previous layout
