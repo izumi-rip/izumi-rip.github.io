@@ -1,3 +1,5 @@
+gems:
+  - jekyll-coffeescript
 sass:
   syntax: scss
 defaults:
